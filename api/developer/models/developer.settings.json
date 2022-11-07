@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "plataforms",
+  "collectionName": "developers",
   "info": {
-    "name": "plataform",
-    "description": ""
+    "name": "developer"
   },
   "options": {
     "increments": true,
@@ -19,8 +18,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "name",
-      "required": true
+      "targetField": "name"
     }
   }
 }
