@@ -7,7 +7,10 @@
 
 module.exports = {
   populate: (ctx) => {
-    console.log('Initializing')
-    ctx.send({ ok: true });
+    console.log("Start to populate...");
+
+    console.log(ctx.query);
+
+    ctx.send("Finished populate!");
   },
 };
