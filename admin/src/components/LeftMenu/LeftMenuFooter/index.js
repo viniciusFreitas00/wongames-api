@@ -15,7 +15,7 @@ function LeftMenuFooter() {
   return (
     <Wrapper>
       <div className="poweredBy">
-        poweredBy &nbsp;
+        powered By &nbsp;
         <A
           key="website"
           href="https://reactavancado.com.br"
